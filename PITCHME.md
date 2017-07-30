@@ -1,6 +1,6 @@
-### shouldComponentUpdate?
+`shouldComponentUpdate?`
 
-##### Performance tips and tricks for rendering quick with react
+###### Performance tips and tricks for rendering quick with react
 
 by @aganglada
 
