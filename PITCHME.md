@@ -6,7 +6,7 @@ by @aganglada
 
 ---
 
-![react](images/react.svg)
+![react](images/react.png)
 ![rocket](images/rocket.png)
 
 ---
