@@ -1,13 +1,13 @@
 `shouldComponentUpdate?`
 
-###### Performance tips and tricks for rendering quick with react
+Performance tips for rendering quick with react
 
 by @aganglada
 
 ---
 
-![react](images/react.svg =200px)
-![rocket](images/rocket.png =200px)
+![react](images/react.svg)
+![rocket](images/rocket.png)
 
 ---
 
