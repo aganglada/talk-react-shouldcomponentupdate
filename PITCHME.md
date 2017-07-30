@@ -1,17 +1,17 @@
----
+### shouldComponentUpdate?
 
-# should I Component Update?
+##### Performance tips and tricks for rendering quick with react
 
-Performance tips and tricks for rendering quick with react
-
-
----
-
-## How rendering works?
+by @aganglada
 
 ---
 
-## Initial render
+![react](images/react.svg =200px)
+![rocket](images/rocket.png =200px)
+
+---
+
+### Initial render
 
 ---
 
