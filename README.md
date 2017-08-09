@@ -132,17 +132,52 @@ The way you want to do it here is checking **references equality**.
 We are going to treat an object as changed if its reference is not longer the same.
 So if the object satisfies that triple equal check then we are not going to render that component.
 
-...
+> Next slide
 
-### Fast reference checking
+So in the context of redux reduccers, if you like to update a single item of a collection,
+Loop over them, and check if thats' not the id you want to update, return the same reference.
+Otherwise, return a new object with the changes.
 
-isShallowEqual
+By doing that, in your `shouldComponentUpdate` you can just do shallow comparasons.
+
+> Next slide
+
+So you do one level deep check.
+This should be almost everywhere as simple as that.
+As I said before, we treat changing value as change reference.
 
 ### Make shouldComponentUpdate check easy
-denormalization of the state
+
+This is a picture of our state.
+[Explain state]
+
+But there are some problems with it.
+
+> Next slide
+
+Huge `shouldComponentUpdate` functions: 
+Where we need to check if objects are the same and then if interaction changes.
+So it become bigger even this is not a big state tree.
+
+Tight coupling of parents:
+Where components should know less about each other.
+Change can be done from children without the parent knowing about it.
+
+So how can we solve that.
+
+> Next slide
+
+Denormalizing your data.
+[Explain state]
+
+Structuring your data in this way your itam can access the property so, it can be modified from the children.
+
+> Next slide
+
+### Takeaways
+
+Read...
 
 ### ideal update
 
 In that way we can get the ideal update.
-
-[DEMO TIME]
